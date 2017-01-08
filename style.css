@@ -16,6 +16,7 @@
 	font-weight: bold;
 }
 
+body{ background-image:url('Back.png'); background-repeat:repeat;}
 c1{ color: #000000; }c2{ color: #ffffff; }c3{ color: #003ebb; }c4{ color: #0055ff; }
 s1{ font-size: 9pt; } s2{ font-size: 14pt; } s3{ font-size: 18pt; } s4{ font-size: 30pt; } s5{ font-size: 7.5pt; }
 b{ color: #afafaf;font-weight: bold; } i{ color: #414141; }
@@ -270,7 +271,7 @@ A img{
 
 table, td{ font-family: Calibri; color: #818181; }
 
-.morefr{ display: inline-block; margin-left: 15px; margin-top: 5px; }
+.morefr{ float: left; margin-left: 15px; margin-top: 5px; }
 .avPic, .morefr { width: 85px; }
 
 ::-webkit-scrollbar{width: 10px;height: 13px;}
@@ -289,4 +290,15 @@ table, td{ font-family: Calibri; color: #818181; }
 ::-webkit-scrollbar-corner:vertical{display: none;}
 ::-webkit-scrollbar-resizer:vertical{background-color: black;}
 
+#rss_panel{
+        width:900px !important;
+        height:470px !important;
+}
+#dev_panel{
+        width:900px !important;
+}
+ #rightColumn, #url_panel_colRow,  .paneltitle, .panelmenu, #imvuTopNav,
+ #avatar_name, #footer_style td, #footerbanner, #ad_panel, #ccpheader_leaderboard{
+        display:none !important;
+}
 /* Sao@imvu.com rights reserved */
