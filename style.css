@@ -16,7 +16,7 @@
 	font-weight: bold;
 }
 
-body{ background-image:url('Back.png'); background-repeat:repeat;}
+body{ background-image:url('back.png'); background-repeat:repeat;}
 c1{ color: #000000; }c2{ color: #ffffff; }c3{ color: #003ebb; }c4{ color: #0055ff; }
 s1{ font-size: 9pt; } s2{ font-size: 14pt; } s3{ font-size: 18pt; } s4{ font-size: 30pt; } s5{ font-size: 7.5pt; }
 b{ color: #afafaf;font-weight: bold; } i{ color: #414141; }
